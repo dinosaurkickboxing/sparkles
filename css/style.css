@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header{
+
+}
+#main-content{
+  margin: 10px;
+}
+
+ /* footer */
+footer{
+  border-top: 1px solid;
+  border-top-color: #cccccc;
+  padding: 20px 0px 20px 0px;
+}
+footer nav, .socialMedia{
+  text-align: center;
+  margin: 20px;
+}
+footer nav a{
+  text-decoration: none;
+  padding: 0px 10px 0px 10px;
+  margin: 0px 15px 0px 15px;
+}
+.socialMedia {
+  padding: 10px;
+}
+.socialMedia a {
+  margin:10px;
+}
+
+/*
+dont want things to print //
+'hide for media display none'
+same with hiding header so it only prints important parts
+*/
+
+@media-screen and (min-width: 800px) {
+
+}
